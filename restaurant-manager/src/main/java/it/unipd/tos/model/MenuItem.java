@@ -9,6 +9,12 @@ public class MenuItem {
  String nome;
  double price;
 
+ public MenuItem(ItemType it, String piatto, double prezzo) {
+  tipo = it;
+  nome = piatto;
+  price = prezzo;
+ }
+ 
  public double getPrice() { return price;}
  public ItemType getTipo() { return tipo;}
 }
